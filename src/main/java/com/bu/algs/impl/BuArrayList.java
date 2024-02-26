@@ -2,8 +2,6 @@ package com.bu.algs.impl;
 
 import com.bu.algs.BuList;
 
-import java.util.Comparator;
-
 // TODO: implement as dynamic array. Do not use Java collections of any utils.
 public class BuArrayList<T> implements BuList<T> {
 
@@ -50,10 +48,5 @@ public class BuArrayList<T> implements BuList<T> {
     @Override
     public T remove(int index) {
         return null;
-    }
-
-    @Override
-    public void sort(Comparator<T> comparator) {
-
     }
 }

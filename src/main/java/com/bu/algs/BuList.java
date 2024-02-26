@@ -1,7 +1,5 @@
 package com.bu.algs;
 
-import java.util.Comparator;
-
 public interface BuList<T> extends BuCollection<T> {
 
     boolean add(T elem);
@@ -13,6 +11,4 @@ public interface BuList<T> extends BuCollection<T> {
     boolean remove(T elem);
 
     T remove(int index);
-
-    void sort(Comparator<T> comparator);
 }

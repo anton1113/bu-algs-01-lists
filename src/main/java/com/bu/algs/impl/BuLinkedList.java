@@ -172,11 +172,6 @@ public class BuLinkedList<T> implements BuList<T>, Sortable, Reversible {
     }
 
     @Override
-    public void sort(Comparator<T> comparator) {
-
-    }
-
-    @Override
     public void sort() {
         // TODO: implement sorting
     }
