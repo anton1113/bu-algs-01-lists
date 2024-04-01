@@ -59,6 +59,7 @@ public class BuMapImpl<K extends BuHashable, V> implements BuMap<K, V> {
         if (value != null) {
             size--;
         }
+        buckets[bucketNumber] = null;
 
         return (V) value;
     }
