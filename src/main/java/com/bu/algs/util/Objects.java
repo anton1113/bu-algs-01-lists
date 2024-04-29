@@ -5,7 +5,7 @@ public final class Objects {
     // empty constructor to make sure that instance of util class is impossible to create
     private Objects() {}
 
-    public static boolean equals(Object a, Object b) {
+    public static <T> boolean equals(T a, T b) {
         // check if links are pointed to the same memory address
         if (a == b) {
             return true;
